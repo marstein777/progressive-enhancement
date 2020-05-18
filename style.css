@@ -1,7 +1,7 @@
 /*TITRE 1*/
 h1 {
-  color:white;
-  background-color: red;
+  color:black;
+  background-color: yellow;
   text-align: center
 }
 
@@ -51,11 +51,12 @@ p{
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
+  margin-top: 150px;
   margin-bottom: 80px;
   border: 3px solid brown;
   font-family:'Times New Roman', serif;
   font-size: 160%;
+  font-style: italic;
   line-height: 150%;
   color:brown;
   background-color: lightgray ;
@@ -74,6 +75,7 @@ p{
    border-left: 6px solid green;
    font-family:'Times New Roman', serif;
    font-size: 160%;
+   font-style: italic;
    line-height: 150%;
    color:brown;
    background-color: lightgray ;
@@ -92,6 +94,7 @@ p{
    border-left: 6px solid red;
    font-family:'Times New Roman', serif;
    font-size: 160%;
+   font-style: italic;
    line-height: 150%;
    color:brown;
    background-color: lightgray ;
@@ -104,9 +107,24 @@ p{
   font-family:'Times New Roman', serif;
   font-size: large;
   line-height: 150%;
-  color:brown;
+  color:wheat;
   text-align: center;
 list-style-position: inside;
+}
+
+.up {
+  background-image: url(images/up.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position:  ;
+}
+
+.down {
+  background-image: url(images/down.png);
+}
+
+.chat {
+  background-image: url(images/chat.png);
 }
 
 /*TABLEUR 1*/
@@ -116,20 +134,44 @@ list-style-position: inside;
   line-height: 150%;
   color: wheat;
   text-align: center;
-
 }
 
+tr:nth-child(even) {
+  background: grey;
+}
 
 /*IMAGE*/
-.image{
+.image_medium{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+  margin-left: 20px;
+  margin-right: 30px;
+  max-width: 35%;
+  height: auto;
+  float: left ;
+  }
+
+  .image_mars{
+    display: block;
+    margin-top: 10px;
+    margin-left: 30;
+    margin-right: 20px;
+    max-width: 35%;
+    height: auto;
+    float: right;
+  }
+
+  .image_fermier{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+      }
 
 /*Légende*/
 .legende{
 text-align: center;
+color: wheat;
 }
 
 /*Style des Liens*/
@@ -139,4 +181,20 @@ a:hover {
 
 a:visited {
   color: red;
+}
+
+/*BAS DE PAGE*/
+.bas_de_page{
+  font-family:'Times New Roman', serif;
+  font-size: large;
+  line-height: 150%;
+  color: wheat;
+  text-align: left;
+}
+
+.mal {
+  color: red;
+}
+.bien {
+  color: green;
 }
