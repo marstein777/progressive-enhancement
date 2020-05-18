@@ -7,10 +7,23 @@ h1 {
 
 /*TITRE 2*/
 h2 {
-  color:black;
-  background-color: ;
+  color: gold;
+  background-color:  ;
   text-align: center;
   border: solid;
+}
+
+/*Disposition générale du Body*/
+body{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: darkslategray;
+  background-image: url(images/fond_ecran.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right top ;
+  background-size: cover;
 }
 
 
@@ -28,9 +41,63 @@ p{
   font-family:'Times New Roman', serif;
   font-size: large;
   line-height: 150%;
-  color:brown;
+  color: wheat;
   text-align: center;
 }
+
+/*Citations*/
+.citations {
+ display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border: 3px solid brown;
+  font-family:'Times New Roman', serif;
+  font-size: 160%;
+  line-height: 150%;
+  color:brown;
+  background-color: lightgray ;
+  padding: 30px;
+  }
+
+  /*Citations Villageois*/
+.citations_villageois {
+  display: block;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 80px;
+   margin-bottom: 80px;
+   border: 3px solid brown;
+   border-left: 6px solid green;
+   font-family:'Times New Roman', serif;
+   font-size: 160%;
+   line-height: 150%;
+   color:brown;
+   background-color: lightgray ;
+   padding: 30px;
+   }
+
+     /*Citations Fermier*/
+.citations_fermier {
+  display: block;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 80px;
+   margin-bottom: 80px;
+   border: 3px solid brown;
+   border-left: 6px solid red;
+   font-family:'Times New Roman', serif;
+   font-size: 160%;
+   line-height: 150%;
+   color:brown;
+   background-color: lightgray ;
+   padding: 30px;
+   }
+
 
 /*LISTE*/
 .liste{
@@ -41,6 +108,17 @@ p{
   text-align: center;
 list-style-position: inside;
 }
+
+/*TABLEUR 1*/
+.tableur1 {
+  font-family:'Times New Roman', serif;
+  font-size: large;
+  line-height: 150%;
+  color: wheat;
+  text-align: center;
+
+}
+
 
 /*IMAGE*/
 .image{
@@ -56,7 +134,7 @@ text-align: center;
 
 /*Style des Liens*/
 a:hover {
-  color:green;
+  background-color: gold;
 }
 
 a:visited {
